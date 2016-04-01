@@ -1,0 +1,19 @@
+{{#if addNewQuestion}}
+  <form>
+
+    <label for="content">Content:</label><br>
+    {{textarea value=content id="content"}}<br>
+
+    <label for="author">Author:</label><br>
+    {{input value=author id="author"}}<br>
+
+    <label for="notes">Additional Notes:</label><br>
+    {{input value=notes id="notes"}}<br>
+
+    <button {{action 'save'}}>Submit</button>
+    
+  </form>
+
+{{else}}
+  <button {{action 'questionFormShow'}}>New Question</button>
+{{/if}}
