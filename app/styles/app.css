@@ -1,0 +1,11 @@
+nav{
+  height: 100px;
+  width: 100%;
+  background: indianred;
+}
+
+footer{
+  height: 75px;
+  width: 100%;
+  background: grey;
+}
