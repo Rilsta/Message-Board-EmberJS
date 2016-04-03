@@ -1,0 +1,14 @@
+.container{
+  width: 90%;
+  height: 100%;
+  margin: 0 5%;
+  border: 1px solid red;
+}
+
+.align-wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}

@@ -1,0 +1,11 @@
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background: gray;
+  a{
+    padding: 10px;
+  }
+}

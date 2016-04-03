@@ -1,7 +1,11 @@
-<nav>
-  {{#link-to 'index'}}Home{{/link-to}}
-</nav>
+<div class="align-wrapper">
+  <nav class="nav-bar">
+    {{#link-to 'index'}}Home{{/link-to}}
+  </nav>
 
-{{outlet}}
+  <div class="container">
+    {{outlet}}
+  </div>
 
-<footer>Cool Footer 2016</footer>
+  <footer class="footer">Cool Footer 2016</footer>
+</div>

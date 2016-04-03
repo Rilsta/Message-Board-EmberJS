@@ -1,11 +1,32 @@
-nav{
-  height: 100px;
-  width: 100%;
-  background: indianred;
-}
+@charset 'UTF-8';
 
-footer{
-  height: 75px;
-  width: 100%;
-  background: grey;
-}
+// Configs
+
+@import
+  'utils/variables',
+  'utils/mixins';
+
+// Vendors
+
+@import
+  'vendors/reset';
+
+// Base
+
+@import
+  'base/base',
+  'base/helpers';
+
+//Layout
+
+@import
+  'layout/extends',
+  'layout/navigation',
+  'layout/header',
+  'layout/footer';
+
+//Components
+@import
+  'components/buttons';
+
+//Pages
